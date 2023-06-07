@@ -1,0 +1,52 @@
+.maquetacion{
+    display: grid;
+    grid-template:
+    "header header" 120px
+    "section1 section1"50px
+    "article1 aside1"470px
+    "section2 section2"auto
+    "article2 aside2"470px
+    "section3 section3"auto
+    "article3 aside3"470px /auto 300px;
+}
+  .header{
+    background-color: antiquewhite;
+    grid-area: header;
+}
+.section1{
+    grid-area: section1;
+    background-color: burlywood;
+}
+.article1{
+    grid-area: article1;
+    background-color: cornflowerblue;
+}
+.aside1{
+    grid-area: aside1;
+    background-color: lightpink;
+}
+.section2{
+    grid-area: section2;
+    background-color: rgb(176, 249, 176);
+}
+.article2{
+    grid-area: article2;
+    background-color: burlywood;
+}
+.aside2{
+    grid-area: aside2;
+    background-color: lavenderblush;
+}
+.section3{
+    grid-area: section3;
+    background-color: rgb(176, 228, 249);
+}
+.article3{
+    grid-area: article3;
+    background-color: rgb(255, 228, 193);
+}
+.aside3{
+    grid-area: aside3;
+    background-color: rgb(232, 180, 197);
+}
+  

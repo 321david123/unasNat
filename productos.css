@@ -1,0 +1,19 @@
+.maquetacion{
+    display: grid;
+    grid-template:
+    "header " 1220px
+    "section "1470px
+    "footer "300px /auto ;
+  }
+  .header{
+    grid-area: header;
+    background-color: blanchedalmond;
+  }
+  .section{
+    grid-area: section;
+    background-color: rgb(188, 148, 88);
+  }
+  .footer{
+    grid-area: footer;
+    background-color: rgb(238, 190, 117);
+  }
